@@ -1,0 +1,44 @@
+.btnBookPackage,
+.btnBookOffer{
+    border: none;
+    outline: none;
+    background:#030337;
+    font-weight: bold;
+    color: #ffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.btnBookOffer{
+    width: 9rem;
+}
+
+.btnBookPackage:hover,
+.btnBookOffer:hover{
+    background-color: #ffff;
+    border: 2px solid #030337;
+    color: #030337;
+}
+
+.main{
+    margin-top: 4em;
+}
+
+.list ul{
+    list-style-type: square;
+}
+
+.list li{
+    color: #000;
+}
+
+.offerWrapper{
+    max-width: 20rem;
+    object-fit: cover;
+    background: #030337;
+}
+
+.offerWrapper>img{
+    width: 100%;
+    opacity: 0.7;
+}

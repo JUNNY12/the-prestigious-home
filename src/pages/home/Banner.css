@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel{
+    background-color: #12123b;
+    width: 100%;
+}
+
+.image{
+    opacity: 0.6;
+    height: 70vh;
+}
+
+.btnBook{
+    border: none;
+    outline: none;
+    color: white;
+    background:#030337;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 7rem;
+    font-weight: bold;
+}
+
+.btnBook:hover{
+    border:2px solid #030337;
+    background: #ffffff;
+    color: #030337;
+}
+
+
+@media all and (max-width:768px){
+    .carousel{
+        margin-top: 3rem;
+    }
+}

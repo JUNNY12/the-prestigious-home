@@ -1,0 +1,97 @@
+.roomWrapper, 
+.hallWrapper,
+.otherFacilties{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.roomImage,
+.otherWrapper
+{
+    max-width: 18rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    border-radius: 5px;
+    position: relative;
+    background: #030337;
+    cursor: pointer;
+}
+
+.hallImage
+{
+    max-width: 22rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    background: #030337;
+}
+
+.roomImage>img,
+.hallImage>img,
+.otherWrapper>img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.roomImage>img:hover,
+.hallImage>img:hover,
+.otherWrapper>img:hover{
+    opacity: 0.6;
+}
+
+.main{
+    margin-top: 8rem;
+}
+.buttonWrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.otherWrapper:hover .buttonWrapper{
+    display: block;
+}
+
+.hallImage:hover .buttonWrapper{
+    display: block;
+}
+
+.roomImage:hover .buttonWrapper{
+    display: block;
+}
+
+.buttonWrapper button{
+    border: none;
+    outline: none;
+    color: white;
+    background: #030337;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 7rem;
+    font-weight: bold;
+}
+
+@media all and (max-width:625px){
+    .main{
+        text-align: center;
+    }
+}
+
+@media all and (max-width:750px){
+    .hallWrapper,
+    .roomWrapper,
+    .otherFacilties{
+        display:  flex;
+        justify-content: center;
+    }
+  
+}

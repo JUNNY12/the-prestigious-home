@@ -1,0 +1,37 @@
+
+
+.footer{
+    background:#030337;
+    color: #ffffff;
+    width: 100%;
+}
+
+.footer h5{
+    margin-bottom: 1rem;
+}
+
+.footer ul{
+    list-style-type: none;
+    margin-left: -2rem;
+}
+
+.footer li{
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.demoText{
+    width: 30ch;
+    padding-right: 1em;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerIcon{
+   font-size: 2rem;
+   cursor: pointer;
+}
+
